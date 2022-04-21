@@ -18,7 +18,6 @@ The score based on the number of correct answered questions.
 ```
 ## Technologies Used
 
-![JavaScript]
-![HTML5]
-![CSS3]
-
+* JavaScript
+* HTML
+* CSS
