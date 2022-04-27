@@ -17,12 +17,15 @@
     </header>
     <!--a section to start the quiz-->
     <div class="home-box custom-box">
-        <h3>Instructions</h3>
-        <p> Welcome to this fun quiz. It is a multiple choice questions on HTML/CSS.</p> 
-        <p>Total number of questions: <span class="total-question"> 12 </span></p>
+        <h3>Quiz Instructions</h3>
+        <p><li> The quiz is a multiple choice questions on HTML, CSS and JavaScript.</li></p> 
+        <p><li>Total number of questions: <span class="total-question"> 12 </span></li></p>
         
-        <p> You have 5 minutes to complete the quiz.</p>
-        <p>Press the start button to begin.. Good Luck ^_^</p>
+        <p><li> The duration of this test is 5 minutes. </li></p>
+        <p><li>You can attempt this test multiple times.</li></p>
+        <p><li>You cannot pause while attempting the test.</li></p>
+        <p><li>You cannot return to the previous question once it has been answered.</li></p>
+        <p><li>Press the start button to begin.. Good Luck ^_^</li></p>
         <button type="button" class="btn" onclick="QuizStart()">Start</button>
     </div>
     <!-- card section for questions and options -->
@@ -30,7 +33,7 @@
         <!-- <div id="TimeLabel">Time left :</div> -->
         <div class="box-header">
             <div class="question-number"></div> 
-           <div class="remainingTime" >Time left : <span id="time" class="timeClockInput"> </span></div>
+           <div class="remainingTime" >Time left: <span id="time" class="timeClockInput"> </span></div>
         </div>
         
         <div class="question-text">
@@ -51,25 +54,25 @@
     <div class="result-box custom-box hide">
         <h1>Quiz Result</h1>
         <table>
-            <tr>
+            <!-- <tr>
                 <td>Remaining Time</td>
                 <td><span class="RemainingTime"></span></td>
-            </tr>
+            </tr> -->
 
             <tr>
-                <td>Correct</td>
+                <td>No. of Correct Answers:</td>
                 <td><span class="total-correct"></span></td>
             </tr>   
             <tr>
-                <td>Wrong</td>
+                <td>No. of Wrong Answers:</td>
                 <td><span class="total-wrong"></span></td>
             </tr>  
                                     
         </table>
         <!-- Submiting form -->
         <section class="quiz-section">
-            <h1>Quiz Completed</h1>
-            <p id="score-text">You scored: <span id="yourScore"></span></p>
+            <!-- <h1>Quiz Completed</h1> -->
+            <p id="score-text"><b>Your quiz score is <span id="yourScore"></span></b></p>
             <form id="submit-score">
               <label for="initials">Enter your name:</label>
               <input type="text" id="initials" placeholder="Name">

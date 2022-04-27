@@ -193,10 +193,10 @@ function showResults(){
     console.log("showresults function");
 
     if (totalTime < 0)totalTime=0;
-    ResultBox.querySelector(".RemainingTime").innerHTML=totalTime;
+    // ResultBox.querySelector(".RemainingTime").innerHTML=totalTime;
     ResultBox.querySelector(".total-correct").innerHTML=correctAnswers;
     ResultBox.querySelector(".total-wrong").innerHTML=wrongAnswers;
-    ResultBox.querySelector("#yourScore").innerHTML= correctAnswers + "/12";
+    ResultBox.querySelector("#yourScore").innerHTML= correctAnswers + " out of 12";
     return;
 
 }
