@@ -21,7 +21,7 @@ var questions = [
      },
      {
       
-       title: "A very useful tool used during development add debugging for printing content to the debugger is...",
+       title: "A very useful tool used during development and debugging for printing content to the debugger is...",
        choices: ["JavaScript", "terminal/bash", "for loops", "console.log"],
        answerIndex: 3
      },
