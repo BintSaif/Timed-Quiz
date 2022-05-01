@@ -26,4 +26,5 @@ The score based on the number of correct answered questions.
 =======
 * HTML
 * CSS
-
+## Dockerfile
+To be honest this is the first time I hear about Docker. So I've done a quick reaserch of what is docker and how to use it. But unfotrunaly I think I need more time to figure it out. Anyways I tried to build an image and a container but I'm not sure if it is working properly or not.
